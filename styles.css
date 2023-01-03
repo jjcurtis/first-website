@@ -1,17 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-sizing: border-box;
+}
+
 .hero-section {
     background-color: #1f2937;
+    flex: 1;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.links {
+    flex-shrink: 0;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    flex-shrink: 0;
 }
 
-.links {
+a {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
 
 ul {
     list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+
 }
