@@ -5,17 +5,21 @@ body {
     box-sizing: border-box;
 }
 
+
+/* ---------------------- HERO SECTION ------------------------  */
+
 .hero-section {
     background-color: #1f2937;
     padding: 0 10%;
-    flex: 1;
 }
+
+/*  NAV BAR   */
 
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding-top: 10px;
 }
 
 .links {
@@ -26,7 +30,6 @@ body {
     color: #F9FAF8;
     font-size: 24px;
     flex-shrink: 0;
-    padding: 0 1rem;
 }
 
 a {
@@ -40,6 +43,46 @@ ul {
     display: flex;
     gap: 1rem;
     margin: 0;
-    padding: 0 1rem;
 
+}
+
+/* HEADING */
+
+.heading {
+    display: flex;   
+    margin: 10% 0;
+}
+
+.heading * {
+    flex: 1;
+}
+
+.message * {
+    padding: 8px ;
+}
+
+.header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext,
+.image {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.image {
+    display: flex;
+    background-color: lightslategray;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 5px 30px;
+    border-radius: 8px;
 }
