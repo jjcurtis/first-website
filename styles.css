@@ -7,6 +7,7 @@ body {
 
 .hero-section {
     background-color: #1f2937;
+    padding: 0 10%;
     flex: 1;
 }
 
@@ -39,6 +40,6 @@ ul {
     display: flex;
     gap: 1rem;
     margin: 0;
-    padding: 0;
+    padding: 0 1rem;
 
 }
