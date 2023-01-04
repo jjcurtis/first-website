@@ -18,13 +18,14 @@ body {
 }
 
 .links {
-    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
     flex-shrink: 0;
+    padding: 0 1rem;
 }
 
 a {
