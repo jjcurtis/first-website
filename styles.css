@@ -53,12 +53,12 @@ ul {
 
 /* HEADING */
 
-.heading {
+.hero-section .heading {
     display: flex;   
     margin: 10% 0;
 }
 
-.heading * {
+.hero-section .heading * {
     flex: 1;
 }
 
