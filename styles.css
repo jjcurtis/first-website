@@ -63,7 +63,7 @@ ul {
 }
 
 .message * {
-    padding: 8px ;
+    padding: 10px 10px 10px 0;
 }
 
 .header {
@@ -97,7 +97,7 @@ ul {
     background-color: black;
 }
 
-/* ---------------------- HERO SECTION ------------------------  */
+/* ---------------------- INFO SECTION ------------------------  */
 
 .info-section {
     display: flex;
@@ -121,21 +121,20 @@ ul {
 
 .content {
     display: flex;
-    justify-content: space-evenly;
-
 }
 
 .cell {
     display: flex;
+    flex: 1;
     flex-direction: column;
     gap: 1rem;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 }
 
 .cell .text {
     width: 100px;
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
