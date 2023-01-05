@@ -19,7 +19,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .links {
@@ -189,4 +189,14 @@ ul {
 .cta-section .sign-up button {
     border: 2px solid #F9FAF8;
     font-weight: 1000;
+}
+
+/* ---------------------- FOOTER ------------------------  */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    justify-content: center;
+    padding: 20px;
 }
